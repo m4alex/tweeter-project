@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tweeter Replica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Top Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo-circle"></div>
+        <h1>Tweeter</h1>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+
+        <!-- Tweet Input Area -->
+        <div class="tweet-box">
+            <div class="profile-pic"></div>
+
+            <textarea id="tweetInput" 
+                      placeholder="What's happening?"></textarea></textarea>
+
+            <div class="tweet-controls">
+                <span id="charCount">160 characters remaining</span>
+                <button id="tweetButton">tweeet</button>
+            </div>
+        </div>
+
+        <!-- Sample Posted Tweet -->
+        <div class="tweet">
+            <div class="profile-pic"></div>
+
+            <div class="tweet-content">
+                <strong>Your Name</strong> @yourusername · 2h
+                <p>This is a sample tweet for Project #1.</p>
+
+                <div class="tweet-icons">
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-solid fa-retweet"></i>
+                    <i class="fa-solid fa-link"></i>
+                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
